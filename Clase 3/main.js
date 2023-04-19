@@ -143,7 +143,7 @@ let entrada = prompt("Ingrese un nombre");
 while (entrada != "ESC") {
   switch (entrada) {
     case "ANA":
-      alert("Hola ANA");
+      alert("Hola ANA " + i);
       break;
 
     case "JUAN":
@@ -157,3 +157,4 @@ while (entrada != "ESC") {
 
   entrada = prompt("Ingrese un nombre");
 }
+
