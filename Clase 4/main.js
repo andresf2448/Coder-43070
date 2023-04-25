@@ -194,3 +194,5 @@ let nuevoPrecio = resta(suma(precioproducto, iva(precioproducto)), descuento);
                 // = resta(suma(1000, 210), 10);
                 // = resta(1210, 10);
                 // = 1200;
+
+console.log(nuevoPrecio);
