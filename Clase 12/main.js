@@ -107,13 +107,73 @@ operador1 || operador2 retorna operador1 si este es verdadero de lo contrario re
 // console.log(usuario?.nombre || "El usuario no existe");
 // console.log(usuario1?.nombre || "El usuario no existe");
 
-const usuario = {
-  nombre: "andres",
-  edad: 22,
-  cursos: {
-    javascript: "aprobado",
-  },
-};
+// const usuario = {
+//   nombre: "andres",
+//   edad: 22,
+//   cursos: {
+//     javascript: "aprobado",
+//   },
+// };
 
-console.log(usuario?.cursos?.javascript || "La propiedad no existe");
-console.log(usuario?.cursos?.react || "La propiedad no existe");
+// console.log(usuario?.cursos?.javascript || "La propiedad no existe");
+// console.log(usuario?.cursos?.react || "La propiedad no existe");
+
+//DESESTRUCTURACIÓN
+// const usuario = {
+//   nombre: "juan",
+//   edad: 18,
+//   direccion: "AV",
+// };
+
+// let nombre = usuario.nombre;
+// let edad = usuario.edad;
+
+// let { nombre, direccion, familia } = usuario;
+
+// console.log(nombre, direccion, familia);
+
+// const usuario = {
+//   nombre: "juan",
+//   edad: 18,
+//   direccion: "AV",
+//   telefono: {
+//     cel: 1234,
+//     casa: 435,
+//     trabajo: 6575,
+//   },
+// };
+
+// const {
+//   nombre,
+//   edad,
+//   telefono: { trabajo },
+// } = usuario;
+
+// console.log(nombre, edad, trabajo);
+
+// const usuario = {
+//   nombre: "juan",
+//   edad: 18,
+//   direccion: "AV",
+// };
+
+// const { nombre: namePerson } = usuario;
+// console.log(namePerson);
+
+// const desestructurar = ({ nombre, edad }) => {
+//   console.log(nombre, edad);
+// };
+
+// const usuario = {
+//   nombre: "juan",
+//   edad: 18,
+//   direccion: "AV",
+//   familia: "gomez",
+// };
+
+// desestructurar(usuario);
+
+const nombres = ["juan", "walter", "Angeles", "Enzo"];
+
+const [ , a, , b] = nombres;
+console.log(a, b);
