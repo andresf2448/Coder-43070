@@ -173,7 +173,7 @@ operador1 || operador2 retorna operador1 si este es verdadero de lo contrario re
 
 // desestructurar(usuario);
 
-const nombres = ["juan", "walter", "Angeles", "Enzo"];
+// const nombres = ["juan", "walter", "Angeles", "Enzo"];
 
-const [ , a, , b] = nombres;
-console.log(a, b);
+// const [ , a, , b] = nombres;
+// console.log(a, b);
