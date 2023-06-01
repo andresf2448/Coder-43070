@@ -151,14 +151,14 @@ let boton = document.getElementById("boton");
 // const resta = dt.minus({ month: 1, days: 10 });
 // console.log(resta.toLocaleString(DateTime.DATETIME_SHORT));
 
-const DateTime = luxon.DateTime;
-const Interval = luxon.Interval;
+// const DateTime = luxon.DateTime;
+// const Interval = luxon.Interval;
 
-const hoy = DateTime.now();
-const navidad = DateTime.local(2023, 12, 24);
+// const hoy = DateTime.now();
+// const navidad = DateTime.local(2023, 12, 24);
 
-const i = Interval.fromDateTimes(hoy, navidad);
+// const i = Interval.fromDateTimes(hoy, navidad);
 
-console.log(i.length('days'));
-console.log(i.length('hours'));
-console.log(i.length('minutes'));
+// console.log(i.length('days'));
+// console.log(i.length('hours'));
+// console.log(i.length('minutes'));
